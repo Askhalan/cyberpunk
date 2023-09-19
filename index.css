@@ -1,0 +1,834 @@
+@font-face{
+    font-family: cyberpunk;
+    src: url("fonts/Blender-Pro-Book.ttf");
+}
+@font-face{
+    font-family: cyberpunk-bold;
+    src: url("fonts/Blender-Pro-Bold.ttf");
+}
+@font-face{
+    font-family: cyberpunk-semibold;
+    src: url("fonts/refinery-25-semi-bold.ttf");
+}
+
+
+/* Import Section */
+
+body{
+    margin: 0;
+    font-family: cyberpunk;
+    font-weight: 300;
+    background-color: rgb(0, 0, 0);}
+h1,h2,h5{
+    margin: 0%;}
+
+
+
+    .sections{
+    width: 100%;
+    height: 100vh;
+    /* border-bottom: 1px solid white;} */}
+ /* code for universal classes */
+.row{
+    display: flex;
+    flex-direction: row;}
+.col{
+    display: flex;
+    flex-direction:column;}
+.pr{position: relative;}
+.pa{position: absolute;}
+.jsc{justify-content: center;}
+.aic{align-items: center;}
+.ha{height: auto;}
+.bs{background-size: cover;}
+
+    header{
+    width: 100%;
+    height: 161px;
+    background: linear-gradient(180deg,rgba(0,0,0,.65),transparent);
+    position: fixed  ;
+    z-index: 5;}
+    #logo img{
+    margin-top: 36px;
+    margin-left: 60px;
+    width: 481px;}
+    .navbar{
+    clip-path: polygon(24px 0, 100% 0%, 100% 0, 100% calc(100% - 24px), calc(100% - 24px) 100%, 0 100%, 0 100%, 0 24px);
+    margin-top: 53px;
+    height: 25px;
+    padding: 24px;
+    box-sizing: content-box;
+    width: 1155px;
+    margin-left: 474px;
+    background-color: rgba(23, 22, 22, 0.7);
+    z-index: 4;    
+    padding-right: 0px;}  
+        .navlink{
+    height: 74px;
+    margin-top:  -24px;
+    padding-top: 19px;}
+            #link1{
+        margin-left: 13px;
+        width: 181px;}
+            #link2{
+        width: 192px;}
+            #link3{
+        width: 274px;}
+            #link4{
+        width:  172px;
+        border-right: 1px solid rgba(255, 255, 255, 0.849);}
+            #link5{
+        width:128px;}
+            #link6{
+                width: 234px;
+                clip-path: polygon(0 0, 100% 0%, 100% 0, 100% calc(100% - 24px), calc(100% - 24px) 100%, 0 100%, 0 100%, 0 24px);
+                background-color: #00f0ff;}
+
+            #link1:hover{background-color: #00f0ff;}
+            #link2:hover{background-color: #00f0ff;}
+            #link3:hover{background-color: #00f0ff;}
+            #link4:hover{background-color: #00f0ff;}
+            #link5:hover{background-color: #00f0ff;}
+                #link6 a{
+                     text-decoration: none;
+                    text-align: center;
+                    color: black;
+                    font-size: 35px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 110%;}
+                .navbar a{
+                    text-decoration: none;
+                    text-align: center;
+                    color: white;
+                    font-size: 35px;
+                    font-style: normal;
+                    font-weight: 200;
+                    line-height: 110%;
+                    margin: 30px;
+                    margin-left: 42px;}
+ 
+/* Section -1 StartS here */
+
+#sec1{
+    background-image: url("Assets/IMAGES/sec1-banner.jpg");
+    background-position: center;
+    z-index: 2;}
+
+    #left1{
+        margin-top: 400px;
+        margin-left: 50px;
+        width: 1724px;
+        height: 519px;
+        margin-top: 532px;}
+        #logo1 #yl-logo1{
+            width: 724px;
+            margin-top: 64px;
+            margin-left: 466px;
+            max-width: 100%;
+            filter: drop-shadow(0 2px 7px rgba(0,0,0,.38)) drop-shadow(0 4px 16px rgba(0,0,0,.25));}
+    #partners1{
+    width: 1135px;
+    height: 44px;
+    margin-top: 30px;
+    margin-left:487px;;
+    filter: drop-shadow(0 1px 24px #000000);}
+        #partners1 img{ margin-right: 17px;}
+        #partners1 :nth-child(1){width: 254px;}
+        #partners1 :nth-child(2){width:166px;} 
+        #partners1 :nth-child(3){width: 111px;}
+        #partners1 :nth-child(4){ width: 169px;}
+        #partners1 :nth-child(5){ width:171px;}
+    #btn1{
+    margin-top: 33px;
+    margin-left: 473px;}
+        #btn1 img{
+            width: 353px;}
+        #btn1 h3{
+    font-family: cyberpunk-bold;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 110%;
+    z-index: 3;
+    margin-top: -60px;
+    margin-left: 65px;}
+        #btn1 a{
+            text-decoration: none;
+            color: #00f0ff;}
+
+#mid1{
+    height: 100vh;
+    width: 36px;
+    background-image: url("Assets/CLIP-ARTS/sec1-bar.svg");}
+
+#right1{
+    height: 100vh;
+    width: 519px;
+    background-image: url(Assets/IMAGES/sec1-banner2.jpg);
+    margin-left: 0px;
+    right: 0;
+    top: 0;}
+    #right1-content{
+    z-index: 3;
+    margin-top: -455px;}
+        #right1-content h2{
+    color: #e6e6e6;
+    font-size: 27px;
+    font-weight: 400;
+    letter-spacing: .26em;
+    line-height: 120%;
+    text-align: center;
+    margin-top: 34px;
+    margin-left: -1px;}
+        #right1-content img{
+    width:  467px ;
+    margin-top: -23px;
+    margin-left: -3px;}
+        #right1-btn ,#right4-btn{
+    margin-top: 35px;
+    margin-left: 10px;}
+            #right1-btn img ,#right4-btn img{
+    width:  355px;
+    height: 72px;}
+            #right1-btn h3,#right4-btn h3{
+    font-family: cyberpunk-bold;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 110%;
+    z-index: 3;
+    margin-top: -62px;
+    margin-left: 89px;}
+            #right1-btn a,#right4-btn a,#s5-btn a{
+             text-decoration: none;
+            color: #fd0130;}
+
+    #sec1-ends{
+    width: 100%;
+    height: 241px;
+    background: linear-gradient(180deg,transparent,rgba(0,0,0,.35) 45.83%,#000);
+    margin-top: 0px;
+    content: "";
+    display: block;
+    top: 891px;}           
+
+/* Section -2 StartS here */
+
+#sec2{
+    height:563px;}
+#sec2 #dots{
+    background-image: url(Assets/CLIP-ARTS/dots-yellow.png);
+    background-repeat: repeat-x;
+    height: 500px;
+    width: 100%;
+    top: 89vh;
+    border-top: 0.5px solid rgba(255, 255, 0, 0.273);
+    border-bottom: 1px solid rgba(255, 255, 0, 0.273);}
+#sec2-content{
+    margin-top: 20px;
+    margin-left: 30px;}
+#sec2-content h1{
+    font-family: cyberpunk-semibold;
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    margin-top: -9px;}
+#sec2-content p{
+    font-family: cyberpunk;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    color: white;
+    text-align: center;
+    margin-top: 46px;}
+#sec2-bar{
+    background-image: url(Assets/CLIP-ARTS/bar2.png);
+    width: 100%;
+    height: 72px;
+    margin-top: 310px;
+    margin-left: 0px;}
+
+/* Section -3 StartS here */
+
+#sec3{
+    background: #fcee0a;
+    margin-top: 47px;
+    padding-top: 17px;}
+
+#navbar3-border,#s6-nav-border{
+    clip-path: polygon(24px 0, 100% 0%, 100% 0, 100% calc(100% - 24px), calc(100% - 24px) 100%, 0 100%, 0 100%, 0 24px);
+    height: 29px;
+    padding: 24px;
+    box-sizing: content-box;
+    width:  1161px;
+    margin-top: 18px;
+    margin-left: 566px;
+    background-color: rgb(0, 0, 0);}
+#navbar-3,#s6-navbar{
+    clip-path: polygon(24px 0, 100% 0%, 100% 0, 100% calc(100% - 24px), calc(100% - 24px) 100%, 0 100%, 0 100%, 0 24px);
+    height: 25px;
+    padding: 24px;
+    box-sizing: content-box;
+    width: 1155px;
+    margin-top:-22px;
+    margin-left: -21px;
+    background: #fcee0a;}
+.navlink3,.navlink6{
+    height: 74px;
+    margin-top:   19px;
+    padding-top: 19px;}
+    #navbar-3 a ,#s6-navbar a{
+        text-decoration: none;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%;
+        margin: 30px;
+        margin-left: 42px;} 
+            #link1-s3{
+                margin-left: -219px;
+                width: 234px;
+                background-color: black;
+            }
+            #link2-s3{
+                width: 262px;;}
+            #link3-s3{
+                width: 247px;
+                margin-left: 13px;}
+            #link4-s3{
+                width: 181px;
+                margin-left: 48px;}
+            #link5-s3{
+                width: 254px;
+                margin-right: -222px;
+                margin-left: 38px;}  
+                #link2-s3 a{
+                    margin: 30px;
+            margin-left: 42px;}
+                #link3-s3 a{
+                    margin: 30px;
+            margin-left: 30px;}
+                #link4-s3 a{
+                    margin: 30px;
+            margin-left: 21px;}
+                #link5-s3 a{
+                    margin: 30px;
+                    margin-left: 20px;}
+                
+   
+            #link1-s3 #selc{    color: #fcee0a;margin-left: 75px;} 
+        #spray img{
+            margin-left: 1192px;
+            margin-top: -77px;
+            z-index: 4;}
+        /* code for hover */
+        #link2-s3:hover{background-color: black ;}
+        #link3-s3:hover{background-color: black ;}
+        #link4-s3:hover{background-color: black ;}
+        #link5-s3:hover{background-color: black ;}
+
+
+        #link2-s3:hover a{ color: #fcee0a;}
+        #link3-s3:hover a{ color: #fcee0a;}
+        #link4-s3:hover a{ color: #fcee0a;}
+        #link5-s3:hover a{ color: #fcee0a;}
+
+
+#spray{overflow: hidden;}
+#content3{
+    width: 2143px;
+    height: 759px;
+    background-color: #000000;
+    margin-left: 69px;
+    margin-right: 20px;
+    margin-top: -6px;
+    padding: 8px;}
+#left3{
+    width: 1309px;
+    height: 759px;
+    margin-right: 8px;
+    background-image: url("Assets/IMAGES/imgs/sec4 main.jpg");}
+#right3{
+    width: 834px;
+    height: 759px;
+    margin-left: 0px;}
+#s3-content-top{
+    width:  824px;
+    height: 534px;}
+#s3-content-top h1{
+    color: white;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    font-family: cyberpunk-semibold;
+    margin-left: 68px;
+    margin-top: 50px;}
+#s3-content-top p{
+    font-family: cyberpunk;
+    color: white;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-left: 74px;}
+#s3-content-down{
+    width:  824px;
+    height: 269px;}
+#s3-content-down div{
+    width: 228px;
+    height: 128px;
+    border: 1px solid black;
+    margin: 16px;}
+#s3-content-down :nth-child(1){
+    background-image: url("Assets/IMAGES/imgs/sec4 main.jpg");}
+#s3-content-down :nth-child(2){
+    background-image: url("Assets/IMAGES/imgs/s3-content-down-2.jpg");}
+#s3-content-down :nth-child(3){
+    background-image: url("Assets/IMAGES/imgs/s3-content-down-3.jpg");}
+#spray2 img{
+    margin-left: 1192px;
+    margin-top: -1px;
+    z-index: 4;}
+
+/* Section -4 StartS here */
+
+#sec4{
+    padding-left: -1px;
+    padding-right: 0px;
+    padding-top: 17px;
+    background: #fcee0a;
+}
+
+#sec4-border{
+    width: 2206px;
+    height: 789px;
+    margin-top: 0px;
+    margin-left:31px;
+    padding-top: 6px;
+    background: linear-gradient(90deg,#000 2px,transparent 0) 0 0,linear-gradient(90deg,#000 2px,transparent 0) 0 100%,linear-gradient(270deg,#000 2px,transparent 0) 100% 0,linear-gradient(270deg,#000 2px,transparent 0) 100% 100%,linear-gradient(180deg,#000 2px,transparent 0) 0 0,linear-gradient(180deg,#000 2px,transparent 0) 100% 0,linear-gradient(0deg,#000 2px,transparent 0) 0 100%,linear-gradient(0deg,#000 2px,transparent 0) 100% 100%,linear-gradient(0deg,rgba(0,0,0,.08) 2px,transparent 0) 0 0,linear-gradient(180deg,rgba(0,0,0,.08) 2px,transparent 0) 0 0;
+    background-repeat: no-repeat;
+    background-size: 28px 28px,28px 28px,28px 28px,28px 28px,28px 28px,28px 28px,28px 28px,28px 28px,100% 100%,100% 100%;
+}
+
+#sec4-main-div{
+    width:2160px ;
+    height: 740px;
+    background-color: #fd0130;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#left4{
+    height:740px ;
+    width: 1274px;
+    background-image: url("Assets/IMAGES/sec4-left-banner.jpg");
+
+
+}
+#left4 img{
+    width: 1315px;
+}
+#right4{
+    height:740px ;
+    margin-top: 0px;
+    background-image: url("Assets/IMAGES/Sec 4 right bg.jpg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    width: 888px;
+
+}
+#right4 h1{
+    font-family:  cyberpunk-semibold;
+    font-size: 84px;
+    line-height: 100%;
+    color: #fd0130;
+    text-align: center;
+    margin-top:  127px;
+}
+#right4 p{
+    color: #fff;
+    font-family:cyberpunk;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    text-align: center;
+    margin-top:  32px;
+}
+#right4-btn{
+    margin-top: 50px;
+    margin-left: 267px;
+}
+
+/* Section -5 StartS here */
+
+#sec5{
+    background: #fcee0a;
+    margin-top: -241px;
+    height:79vh;
+}
+#sec5-main-div{
+    width:2160px ;
+    height: 797px;
+    margin-top: 37px;;
+    margin-left: 63px;
+}
+#sec5-content{
+    width: 747px;
+    
+}
+#sec5-image{
+        border: 6px solid #000;
+        z-index: 3;
+
+}
+#s5-stickers{
+    width: 100%;
+    height: 90vh;
+    top: 3714px;
+    overflow: hidden;
+}
+#s5-graffiti{
+    top: -141px;
+    left: 694px;
+    width: 455px;}
+#s5-spray1{
+    top: -78px;
+    left: 1043px;
+    width: 924px;}
+#s5-spray2{
+    top: 513px;
+    left: -437px;
+    width: 485px;}
+#s5-gun{
+    top: 421px;
+    left: -1208px;
+    width: 292px;
+    z-index: 4;}
+#sec5-content h1{
+    font-size: 83px;
+    line-height: 100%;
+    font-family: cyberpunk-bold;
+    font-weight: 700;
+    color: black;
+    margin-top: 167px;
+
+}
+#sec5-content p{
+    font-family: cyberpunk;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-top: 55px;
+
+}
+#s5-btn img{
+    width: 347px;
+    margin-top: 18px;
+
+
+}
+#s5-btn h3{
+    top: -96px;
+    left: 74px;
+    z-index: 3;
+    font-family: cyberpunk-bold;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 110%;
+    color: #000;
+
+}
+#s5-bar{
+    height: 32px;
+    background-color: #0000008c;
+    margin-top: 96px;
+    overflow: hidden;
+}
+#s5-bar img{
+    width: 2690px;
+    margin-top: 1px;
+    margin-left: -217px;
+
+}
+
+/* Section -6 StartS here */
+
+#sec6{
+    height: 118vh;
+}
+#s6-d1{
+    width: 100%;
+    height: 334px;
+    background-image: url(Assets/CLIP-ARTS/s6-dots.png);
+    background-repeat: space;
+    
+   
+}
+#s6-d1 h1{
+    color: #e6e6e6;
+    font-family: cyberpunk-semibold ;
+    text-align: center;
+    font-size: 81px;
+    margin-top: 177px;
+}
+#s6-d2{
+    width: 100%;
+    height: 269px;
+   
+}
+#s6-nav-border{
+    background-color: rgb(255, 255, 255);
+    width: 1318px;
+    margin-left: 456px;
+}
+#s6-navbar{ 
+    background: #000000;
+    width: 1314px;
+    margin-left: -23px;
+}
+#link1-s6{
+    margin-left: -41px;
+    width: 315px;
+    background-color: #fff;}
+    #link1-s6 a{
+        color: black;
+    }
+#link2-s6{
+    width: 327px;
+    margin-left: -10px;
+    margin-right: 20px;
+   ;
+}
+#link3-s6{
+    width: 203px;
+    margin-left: 6px;
+margin-right: -18px;}
+#link4-s6{
+   width: 298px;
+    margin-left: 64px}
+
+#s6-navbar a{
+    color: #fff;
+    font-family: cyberpunk;
+    font-size: 33px ;
+    font-weight: 400;
+}
+#link1-s6 a{
+    color: black;
+    margin-left: 43px;
+    }
+    #link3-s6 a{
+       
+        margin-left: 5px;}
+/* code for hovering */
+        #link2-s6:hover{background-color: #fff;}
+        #link3-s6:hover{background-color: #fff;}
+        #link4-s6:hover{background-color: #fff;}
+        #link5-s6:hover{background-color: #fff;}
+
+        #link2-s6:hover a{color: #000000;}
+        #link3-s6:hover a{color: #000000;}
+        #link4-s6:hover a{color: #000000;}
+        #link5-s6:hover a{color: #000000;}
+#s6-options{
+    width: 1110px;
+    height: 72px;
+    margin-top: 16px;
+    padding-left: 45px;
+    border-bottom: 3px solid grey;
+    margin-left: 562px;
+
+}
+#s5-options h1{
+    color: #fff;
+    font-family: cyberpunk;
+    font-size: 34px;
+    font-weight: 400;
+    margin-right: 79px;}
+#s6-d3{
+    margin-top: 0px;
+    margin-right: 30px;
+    overflow: hidden;
+    width: 100%;
+    height:  466px;}
+#s6-d3 img{
+    width: auto;
+    height: 433px;
+    border: 1px solid yellow;
+    margin-left: 20px;
+    margin-right: 37px;
+}
+#s6-d3 :nth-child(1){
+    margin-left: 291px;
+}
+#s6-d4{
+    background-image: url("Assets/CLIP-ARTS/s6-bar.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 364px;
+    width: 100%;
+}
+footer{
+    width: 100%;
+    height: 149vh;
+    background-color: #fcee0a;
+    margin-top: -10px;
+}
+#ft-1{
+
+    height: 721px;
+
+}
+#ft-1content{
+    overflow: hidden;
+}
+#ft-1 img{
+    width: 129px;
+    height: auto;
+    margin-top: 39px;
+
+}
+#ft-1 h2{
+    color: #000;
+    font-family: cyberpunk;
+    font-size:49px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-top: 53px;
+
+}
+#ft-main {
+    font-family: cyberpunk;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 120%;
+    text-align: center;
+    margin-top: 10px;
+}
+#ft-1 input[type=email] {
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 765px;
+    height: 57px;
+    background-color: #fcee0a;
+    margin-top: 0px;
+
+  }
+  #ft-1 input[type=email]::placeholder {
+    font-size: 34px;
+    font-family: cyberpunk;
+      color:black;
+  }
+#ft-1 form img{
+    width: 353px;
+    height: auto;
+    top: 37px;
+    left: 51px;
+    position: relative;
+    z-index: 2;
+    opacity: 0.5;
+}
+#submi{
+    z-index: 3;
+    top:  -79px;
+    left: 944px;
+    font-size: 33px;
+    font-family: cyberpunk;
+    opacity: 0.5;
+
+}
+#ft-1 div{
+    margin-top: -24px;
+}
+#ft-1 input[type=checkbox] {
+    width: 19px;
+    top: -49px;
+    left: -5px;
+    position: relative;
+}
+#check{
+    font-size: 19px;
+    margin-left: 36px;
+    text-align: left;
+    margin-top: -72px;
+}
+#ft1-last{
+    font-size: 19px;
+    margin-left: -417px;
+    text-align: left;
+    margin-top: 13px;
+
+}
+#ft-2 img{
+    width: 2278px;
+    margin-top: 87px;
+
+}
+#ft-2{
+    height:  798px;
+}
+#ft-3{
+    height:   679px;
+}
+#ft-2-cont{
+    width: 2001px;
+    height: 670px;
+    left: 153px;
+    top: -523px;
+}
+#ft-2-cont div{
+    color: #000;
+    font-family:cyberpunk;
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 40px;
+    position: relative;
+    text-decoration: none;
+    margin-top: 45px;
+}
+#ft-2-cont div:nth-child(1){margin-left: 317px;}
+#ft-2-cont div:nth-child(2){margin-left: 113px;}
+#ft-2-cont div:nth-child(3){margin-left: 117px;}
+#ft-2-cont div:nth-child(4){margin-left: 133px;}
+#ft-2-cont div:nth-child(5){margin-left: 105px;}
+#cooki{
+    color: #000;
+    font-family: cyberpunk;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: -719px;
+    margin-left: 1027px;}
+#cooki p{
+    margin-left: -1099px;
+    margin-top: 8px;
+    text-align: center;
+    font-size: 20px;}
+#ft-3 img{
+    width: 2279px;
+    height: auto;
+    margin-top: 148px;
+}
+#ft-3-cont{
+    width: 1436px;
+    height: 338px;
+    left: -1823px;
+    top: 322px;}
+#ft-3-cont div{
+    color: #fff;
+
+}
+#ft-3-cont div:nth-child(2){margin-left: 237px;}
+#ft-3-cont div:nth-child(3){margin-left: 324px;}
+#ft-3-cont div:nth-child(4){margin-left: 381px;}
+#drop{
+    bottom: 471px;
+    left: 667px;
+    position: absolute;
+}
+ 
